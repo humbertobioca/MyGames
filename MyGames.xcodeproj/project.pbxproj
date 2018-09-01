@@ -13,6 +13,7 @@
 		57393CC1210380C9009293A3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57393CC0210380C9009293A3 /* GameViewController.swift */; };
 		57393CC3210380DB009293A3 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57393CC2210380DB009293A3 /* AddEditViewController.swift */; };
 		575703BE2103712D001C117A /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575703BD2103712D001C117A /* GameTableViewCell.swift */; };
+		57B272ED213AE7F2001A22EE /* MyGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B272EC213AE7F2001A22EE /* MyGamesTests.swift */; };
 		57D25337210297D50053F8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D25336210297D50053F8E9 /* AppDelegate.swift */; };
 		57D25339210297D50053F8E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D25338210297D50053F8E9 /* ViewController.swift */; };
 		57D2533C210297D50053F8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D2533A210297D50053F8E9 /* Main.storyboard */; };
@@ -21,6 +22,16 @@
 		57D2534C2102B4470053F8E9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D2534B2102B4470053F8E9 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		57B272EF213AE7F2001A22EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D2532B210297D50053F8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D25332210297D50053F8E9;
+			remoteInfo = MyGames;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		57393CBA21037AD6009293A3 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
 		57393CBC21037F76009293A3 /* Games2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games2TableViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +39,9 @@
 		57393CC0210380C9009293A3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		57393CC2210380DB009293A3 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 		575703BD2103712D001C117A /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		57B272EA213AE7F2001A22EE /* MyGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B272EC213AE7F2001A22EE /* MyGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGamesTests.swift; sourceTree = "<group>"; };
+		57B272EE213AE7F2001A22EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D25333210297D50053F8E9 /* MyGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D25336210297D50053F8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D25338210297D50053F8E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		57B272E7213AE7F2001A22EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57D25330210297D50053F8E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,10 +90,20 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		57B272EB213AE7F2001A22EE /* MyGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B272EC213AE7F2001A22EE /* MyGamesTests.swift */,
+				57B272EE213AE7F2001A22EE /* Info.plist */,
+			);
+			path = MyGamesTests;
+			sourceTree = "<group>";
+		};
 		57D2532A210297D50053F8E9 = {
 			isa = PBXGroup;
 			children = (
 				57D25335210297D50053F8E9 /* MyGames */,
+				57B272EB213AE7F2001A22EE /* MyGamesTests */,
 				57D25334210297D50053F8E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				57D25333210297D50053F8E9 /* MyGames.app */,
+				57B272EA213AE7F2001A22EE /* MyGamesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +136,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		57B272E9213AE7F2001A22EE /* MyGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B272F1213AE7F2001A22EE /* Build configuration list for PBXNativeTarget "MyGamesTests" */;
+			buildPhases = (
+				57B272E6213AE7F2001A22EE /* Sources */,
+				57B272E7213AE7F2001A22EE /* Frameworks */,
+				57B272E8213AE7F2001A22EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B272F0213AE7F2001A22EE /* PBXTargetDependency */,
+			);
+			name = MyGamesTests;
+			productName = MyGamesTests;
+			productReference = 57B272EA213AE7F2001A22EE /* MyGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		57D25332210297D50053F8E9 /* MyGames */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57D25348210297D80053F8E9 /* Build configuration list for PBXNativeTarget "MyGames" */;
@@ -131,6 +181,10 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Student;
 				TargetAttributes = {
+					57B272E9213AE7F2001A22EE = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 57D25332210297D50053F8E9;
+					};
 					57D25332210297D50053F8E9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -150,11 +204,19 @@
 			projectRoot = "";
 			targets = (
 				57D25332210297D50053F8E9 /* MyGames */,
+				57B272E9213AE7F2001A22EE /* MyGamesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		57B272E8213AE7F2001A22EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57D25331210297D50053F8E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +230,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		57B272E6213AE7F2001A22EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B272ED213AE7F2001A22EE /* MyGamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57D2532F210297D50053F8E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +255,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B272F0213AE7F2001A22EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D25332210297D50053F8E9 /* MyGames */;
+			targetProxy = 57B272EF213AE7F2001A22EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		57D2533A210297D50053F8E9 /* Main.storyboard */ = {
@@ -206,6 +284,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		57B272F2213AE7F2001A22EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTPJCF385B;
+				INFOPLIST_FILE = MyGamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gamesbioca.MyGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGames.app/MyGames";
+			};
+			name = Debug;
+		};
+		57B272F3213AE7F2001A22EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTPJCF385B;
+				INFOPLIST_FILE = MyGamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.gamesbioca.MyGamesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGames.app/MyGames";
+			};
+			name = Release;
+		};
 		57D25346210297D80053F8E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -324,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTPJCF385B;
 				INFOPLIST_FILE = MyGames/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -340,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTPJCF385B;
 				INFOPLIST_FILE = MyGames/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,6 +475,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		57B272F1213AE7F2001A22EE /* Build configuration list for PBXNativeTarget "MyGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B272F2213AE7F2001A22EE /* Debug */,
+				57B272F3213AE7F2001A22EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		57D2532E210297D50053F8E9 /* Build configuration list for PBXProject "MyGames" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
