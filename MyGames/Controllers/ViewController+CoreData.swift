@@ -20,4 +20,5 @@ extension UIViewController {
         // obtem a instancia do Core Data stack
         return appDelegate.persistentContainer.viewContext
     }
+    wetwetwet
 }
